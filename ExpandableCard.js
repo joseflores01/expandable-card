@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import InfoIcon from '@material-ui/icons/Info';
 import "./ExpandableCard.css";
 
-/**
- * @param title @param paragraph @param hparagraph @param img @param footer @param link @param linkName @param color
- */
+
 function ExpandableCard(props) {
 
     const [expanded, setExpanded]  = useState(false);
